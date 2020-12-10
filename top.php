@@ -10,23 +10,23 @@
     	<script type="text/javascript">
             jQuery(function($) {
                 setTimeout(function(){
-                    $('.start p').fadeIn(1600);
+                    $('.start p').fadeIn(1000);
                 },500); //フェードイン
                 setTimeout(function(){
                     $('.start').fadeOut(500);
-                },2500); //フェードアウト
+                },1500); //フェードアウト
                 $(".container").css("display", "none");
                 $("header").css("display", "none");
                 $("footer").css("display", "none");
                 $("#nav-toggle").css("display", "none");
                 setTimeout(function(){
                     $('.container').css("display", "block");
-                },2500);
+                },1500);
                 setTimeout(function(){
                     $("header").css("display", "block");
                     $("footer").css("display", "block");
                     $("#nav-toggle").css("display", "block");
-                },3000);
+                },2000);
             });
 		</script>
 
@@ -65,7 +65,7 @@
         <div class="about-box">
 			<a href="http://agehakyutech.s1009.xrea.com/about/">
             <div class="title-box"></div>
-			<h2>About</h2>
+			<h2 class="hover_text">About</h2>
             <img class="img-box" src="http://agehakyutech.s1009.xrea.com/wp-content/uploads/2020/03/about_01.jpg" alt="about">
 			</a>
         </div>
@@ -86,18 +86,3 @@
 </div>
 
 <?php get_footer(); ?>
-
-<!-- <div class="start">
-    	<script type="text/javascript">
-            jQuery(function($) {
-                setTimeout(function(){
-                    $('.start p').fadeIn(1600);
-                },500); //フェードイン
-                setTimeout(function(){
-                    $('.start').fadeOut(500);
-                },2500); //フェードアウト
-            });
-		</script>
-
-    <p><img src="http://agehakyutech.s1009.xrea.com/wp-content/uploads/2020/03/ageha_logo.png" alt="九工大Musicサークル Ageha"></p>
-</div> -->

@@ -369,6 +369,17 @@ header .header-right img{
     margin-left: 230px;
     z-index: 5;
     color: #dcdcdc;
+
+    /*トップページ　ホバーアニメーション*/
+    background-image: linear-gradient(to right, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: 0.75s;
+}
+
+.about-box h2:hover {
+    background-position: -100% 0;
+    color: #000000;
 }
 
 .about-box img{
@@ -397,6 +408,17 @@ header .header-right img{
     right: 390px;
     z-index: 5;
     color: #dcdcdc;
+
+    /*トップページ　ホバーアニメーション*/
+    background-image: linear-gradient(to right, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: 0.75s;
+}
+
+.blog-box h2:hover {
+    background-position: -100% 0;
+    color: #000000;
 }
 
 .blog-box img{
@@ -425,6 +447,17 @@ header .header-right img{
     margin-left: 190px;
     z-index: 5;
     color: #dcdcdc;
+
+    /*トップページ　ホバーアニメーション*/
+    background-image: linear-gradient(to right, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: 0.75s;
+}
+
+.contact-box h2:hover {
+    background-position: -100% 0;
+    color: #000000;
 }
 
 .contact-box img{
